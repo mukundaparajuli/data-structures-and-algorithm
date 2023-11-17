@@ -27,7 +27,7 @@ int main()
 
 /*
  Logic Here:
- -rows -1 -from 1 to n
+ -rows -i -from 1 to n
  -column -j -goes from 1 to i
  -in each column of each row we will apply the rule i-j+1
 */

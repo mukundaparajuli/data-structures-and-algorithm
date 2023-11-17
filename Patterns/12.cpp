@@ -25,3 +25,10 @@ int main()
     }
     return 0;
 }
+
+
+// Logic here
+// row(i) goes from 1 to n
+// column(j) of each row goes from 1 to n
+// for each column we will print the value of ch('A'+i-1) which value will increase as the column increase 
+// the value of  ch will also increase with increase in row no.
