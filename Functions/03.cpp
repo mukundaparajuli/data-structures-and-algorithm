@@ -26,3 +26,11 @@ int main()
     cout << "The result is " << result;
     return 0;
 }
+
+/**
+ * CallStack:
+ * When you call a function make sure that it has already been declared before
+ * You cannot access the function declared below it
+ * for eg here in this program the function factorial needs to be defined already before it is used in nCr
+ * function
+ * */
