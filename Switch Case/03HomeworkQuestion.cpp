@@ -62,4 +62,5 @@ int main()
         n = n % 1;
         break;
     }
+    return 0;
 }

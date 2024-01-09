@@ -18,3 +18,11 @@ int main()
     cout << "The result will be:" << power(a, b) << endl;
     return 0;
 }
+
+
+// Things to consider about functions
+/*
+-parameter is a value or a variable used during the declaration/defination of a function
+-argument is a value or a variable passed to the function while calling them
+-the name of the variable in argument and parameter don't need to be the same
+*/
