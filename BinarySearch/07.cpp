@@ -7,14 +7,14 @@ bool isPossible(int arr[], int mid, int n, int m)
     int totalPages = 0;
     for (int i = 0; i < n; i++)
     {
-        if (totalPages + arr[i] < mid)
+        if (totalPages + arr[i] <= mid)
         {
             totalPages += arr[i];
         }
         else
         {
             studentCount++;
-            if (studentCount > m)
+            if (studentCount > m || arr[i] > mid)
             {
                 return false;
             }
@@ -27,7 +27,7 @@ bool isPossible(int arr[], int mid, int n, int m)
 int bookAllocation(int arr[], int n, int m)
 {
     int s = 0;
-    int totalPages = 0;  // Correct initialization
+    int totalPages = 0; // Correct initialization
     for (int i = 0; i < n; i++)
     {
         totalPages += arr[i];
