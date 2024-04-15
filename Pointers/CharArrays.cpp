@@ -38,6 +38,6 @@ int main(){
     // risky 
     // might be pointing the address that cannot be accessed
     // might be read only memory
-    char *ccptr="Hello";
+    // char *ccptr="Hello";
     return 0;
 }
