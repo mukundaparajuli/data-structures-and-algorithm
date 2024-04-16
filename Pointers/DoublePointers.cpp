@@ -4,9 +4,9 @@ using namespace std;
 void update(int **p){
     // p=p+1;      //didnot get updated
     // cout<<p<<endl;
-     *p=*p+1;    //got updated
+    //  *p=*p+1;    //got updated
     // cout<<*p<<endl;
-    // **p=**p+1;   //got updated   
+    **p=**p+1;   //got updated   
 }
 int main(){
     int value=5;
