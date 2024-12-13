@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+
 class LinkedListNode{
     public:
         int data;
@@ -10,7 +11,7 @@ class LinkedListNode{
         this->data=data;
         this->next=NULL;
     }
-};
+    };
 int main(){
     LinkedListNode* N1 =new LinkedListNode(10);
     cout<<"Data=" <<N1->data<<endl;
