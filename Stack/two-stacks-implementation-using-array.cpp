@@ -1,3 +1,12 @@
+// Summary of the approach:
+// 1. Two pointers, `top1` and `top2`, are used to manage two stacks in a single array.
+// 2. `top1` starts at -1 and grows upwards, while `top2` starts at the array size and grows downwards.
+// 3. A shared array (`arr`) is dynamically allocated to store elements for both stacks.
+// 4. A space check (`top2 - top1 > 1`) ensures there is room before pushing elements into either stack.
+// 5. Stack operations (push, pop, peek, isEmpty) are implemented separately for both stacks, ensuring proper bounds checks.
+// 6. Efficient space utilization is achieved by allowing the stacks to grow towards each other until space is exhausted.
+
+
 #include<iostream>
 using namespace std;
 
