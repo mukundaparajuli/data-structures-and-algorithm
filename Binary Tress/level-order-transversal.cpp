@@ -9,7 +9,7 @@ vector<vector<int>> levelOrderTransversal(TreeNode* root){
     vector<vector<int>> ans;
     if(root == NULL) return ans; //check if root is NULL if yes return the ans
 
-    queue<TreeNode*> q;     //create a queuq
+    queue<TreeNode*> q;     //create a queue
     q.push(root);       //push the root value passed into that queue
 
 // untill the queue is empty perform the following
@@ -39,7 +39,7 @@ vector<vector<int>> levelOrderTransversal(TreeNode* root){
             // push back the data at that node to the array or vector level
             level.push_back(node->data);
 
-            // perform this for all the elements in the queue
+            // perform this for all the elements in the queue as the elements are added to the queue
         }
 
         // push the elements at that particular level to the ans
