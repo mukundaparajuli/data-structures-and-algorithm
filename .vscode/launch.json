@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/C++ (LoveBabbar)/C++/Linked List",
-      "program": "d:/C++ (LoveBabbar)/C++/Linked List/build/Debug/outDebug",
+      "cwd": "d:/C++ (LoveBabbar)/C++/Linked List/LeetCode",
+      "program": "d:/C++ (LoveBabbar)/C++/Linked List/LeetCode/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

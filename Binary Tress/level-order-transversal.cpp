@@ -32,6 +32,7 @@ vector<vector<int>> levelOrderTransversal(TreeNode* root){
             // check if the node formed from the element is pointing to NULL at left
             // if not push the left side of the node to the queue
             if(node->left != NULL) q.push(node->left);
+            
             // check if the node formed from the element is pointing to NULL at right
             // if not push the right side of the node to the queue
             if(node->right != NULL) q.push(node->right);
